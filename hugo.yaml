@@ -1,40 +1,32 @@
-baseurl: https://example.com/
-languageCode: en-us
+baseurl: https://ravachol.top/
+languageCode: zh-cn
 theme: hugo-theme-stack
-title: Example Site
-copyright: Example Person
+title: Nomadic Monad
+copyright: Rhizome
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
-DefaultContentLanguage: en
+DefaultContentLanguage: zh-cn
 
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
-hasCJKLanguage: false
+hasCJKLanguage: true
 
 languages:
-    en:
-        languageName: English
-        title: Example Site
+    # en:
+    #     languageName: English
+    #     title: Nomadic Monad
+    #     weight: 2
+    #     params:
+    #         sidebar:
+    #             subtitle: what the f*ck
+    zh-cn:
+        languageName: 中文
+        title: Nomadic Monad
         weight: 1
         params:
             sidebar:
-                subtitle: Example description
-    zh-cn:
-        languageName: 中文
-        title: 演示站点
-        weight: 2
-        params:
-            sidebar:
-                subtitle: 演示说明
-    ar:
-        languageName: عربي
-        languagedirection: rtl
-        title: موقع تجريبي
-        weight: 3
-        params:
-            sidebar:
-                subtitle: وصف تجريبي
+                subtitle: 一个神秘的网站
 
 services:
     # Change it to your Disqus shortname before using
@@ -59,7 +51,7 @@ params:
     favicon: # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     footer:
-        since: 2020
+        since: 2025
         customText:
 
     dateFormat:
@@ -67,12 +59,12 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 🍥
+        emoji: 🍱
         subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         avatar:
             enabled: true
             local: true
-            src: img/avatar.png
+            src: img/avatar.jpg
 
     article:
         math: false
@@ -217,15 +209,9 @@ menu:
     social:
         - identifier: github
           name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
+          url: https://github.com
           params:
               icon: brand-github
-
-        - identifier: twitter
-          name: Twitter
-          url: https://twitter.com
-          params:
-              icon: brand-twitter
 
 related:
     includeNewer: true
