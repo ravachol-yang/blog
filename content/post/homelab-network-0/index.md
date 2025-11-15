@@ -45,7 +45,7 @@ Homelabbing is just a kind of roleplaying, roleplaying as sysadmins.
 
 安装Adguard Home提供广告过滤，MosDNS国内外分流，Clash负责国外DNS产生Fake IP，国内DNS传回主路由进行处理，Fake IP流量在经过主路由时被转发到该机器的Clash进行代理，其他流量不受影响
 
-## 前人方案对比
+## 参考方案对比
 ### DNS服务的序列
 实际上，我最初尝试这三个服务的结合时，第一个成功的方案是把OpenClash前置，例如参考[这个网页](https://github.com/Kirbytronic/openclash-mosdns-adguardhome)上面的方案，他的方案成功后，在Adguard Home的管理界面里只能看到一个客户端`127.0.0.1`，这就使得AdgHome的功能残缺了，所以我后面都探索AdgHome前置的方案。
 
